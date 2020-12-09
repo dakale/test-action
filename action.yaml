@@ -3,8 +3,7 @@ description: 'Greet someone and record the time'
 input:
   who-to-greet:
     description: 'Who to greet'
-    required: true
-    default: ${{ github.actor }}
+    default: nobody
 outputs:
   time: # id of output
     description: 'The time we greeted you'
